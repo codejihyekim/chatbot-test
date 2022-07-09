@@ -7,7 +7,6 @@ from collections import Counter, defaultdict
 
 from context.domains import Reader, File
 
-
 class Solution(Reader):
 
     def __init__(self, k=0.5):

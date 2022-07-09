@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="34ffdb50-d0ca-4ba7-9218-ff53a9ee6074" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/chatbot.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/chatbot.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/data/stopword.text" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/word_cloud.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/word_cloud.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/sentence.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/sentence.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +22,17 @@
       <list>
         <option value="Python Script" />
       </list>
+    </option>
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
     </option>
   </component>
   <component name="Git.Settings">
@@ -44,7 +55,8 @@
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
 }</component>
   <component name="RunManager" selected="Python.word_cloud">
@@ -111,7 +123,12 @@
       <workItem from="1656664833645" duration="290000" />
       <workItem from="1656665145335" duration="4636000" />
       <workItem from="1656893483108" duration="1348000" />
-      <workItem from="1656921909532" duration="2428000" />
+      <workItem from="1656921909532" duration="3772000" />
+      <workItem from="1657167290077" duration="150000" />
+      <workItem from="1657172417686" duration="13000" />
+      <workItem from="1657262128452" duration="211000" />
+      <workItem from="1657267229394" duration="80000" />
+      <workItem from="1657269969812" duration="726000" />
     </task>
     <servers />
   </component>
@@ -130,6 +147,6 @@
     </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/chatbot$word_cloud.coverage" NAME="word_cloud Coverage Results" MODIFIED="1656921918711" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project" />
+    <SUITE FILE_PATH="coverage/chatbot$word_cloud.coverage" NAME="word_cloud Coverage Results" MODIFIED="1657167406246" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project" />
   </component>
 </project>
